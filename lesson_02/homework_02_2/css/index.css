@@ -1,0 +1,112 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio {
+    padding: 102px 86px;
+}
+
+.portfolio__role-container{
+    max-width: 500px;
+    margin-bottom: 64px;
+}
+
+.portfolio__role {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+
+.portfolio__name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.portfolio__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+} 
+
+.portfolio__project-container {
+    margin-bottom: 51px;
+}
+
+.portfolio__projects {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.portfolio__projects-item {
+    list-style-position: inside;
+    color:  #595959;
+}
+
+.portfolio__projects-links {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects-item__hr {
+    border: 0 none;
+    border-top: 1px dashed #A8A8A8;
+    width: 88px;
+    display: inline-block; 
+    margin-left: 30px;
+}
+
+.project-item__bold {
+    color: #000000;
+    font-weight: 700;
+}
+
+.portfolio__section {
+    margin-bottom: 12px;
+}
+
+.experience__subtitle {
+    margin-bottom: 11px;
+}
+
+.subtitle__date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 8px;
+}
+
+.portfolio__experience-list {
+    margin-bottom: 20px;
+    color: #595959;;
+}
+
+.portfilio__experience-item {
+    list-style-position: inside;
+}
+
+.color-red {
+    color: #FB6D3A;
+}
+
+.portfolio_education-management {
+    margin-bottom: 12px;
+}

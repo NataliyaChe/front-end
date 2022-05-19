@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-font: 'Open Sans', sans-serif;
+    --main-font-color: #070707; 
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+}
+
+.container {
+    width: 100%;
+    max-width: 943px;
+    margin: 0 auto;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+section:nth-child(1n) {
+    background-color: #f6f6f6;
+}
+
+/* Global style end */
+
+.header__menu {
+    padding: 29px 0;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #828282;
+}
+
+.header__menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.header__menu-item {
+    list-style: none;
+}
+
+.header__menu-link {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #828282;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: all 0.5s;
+}
+
+.header__menu-link:hover {
+    color: var(--main-font-color);
+    transform: scale(1.2) rotate(360deg);
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 64px;
+    margin-bottom: 38px;
+}
+
+.header__img {
+    width: 943px;
+    height: 387px;
+    background-image: url(../images/title__img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.about-me {
+    margin: 100px 0;
+}
+
+.about-me__container {
+    max-width: 480px;
+}
+
+.about-me__sub-title {
+    margin-bottom: 28px;
+}
+
+.about-me__text {
+
+}
+
+.about-me__text:last-child {
+    
+    
+}
+
+.header__menu-link:first-child:hover {
+    color: #FF4500;
+}
+
+.header__menu-link:nth-child(2):hover {
+    color: aquamarine;
+    transform: scale(-0.5s);
+}
+
+.header__menu-link:nth-child(3):hover {
+    color: #FF4500;
+    transform: 
+}
+
+.about-me__text:first-child:hover {
+    color: #FF4500;
+}
