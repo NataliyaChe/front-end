@@ -23,6 +23,7 @@ body {
     font-weight: 700;
     font-size: 34px;
     line-height: 46px;
+    text-align: center;
 }
 
 .text {
@@ -67,7 +68,7 @@ section:nth-child(1n) {
 
 .header__menu-link:hover {
     color: var(--main-font-color);
-    transform: scale(1.2) rotate(360deg);
+    transform: scale(1.2);
 }
 
 .header__title {
@@ -81,10 +82,16 @@ section:nth-child(1n) {
     width: 943px;
     height: 387px;
     background-image: url(../images/title__img.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.header__img:hover {
+    background-size: 120%;
 }
 
 .about-me {
@@ -100,28 +107,9 @@ section:nth-child(1n) {
 }
 
 .about-me__text {
-
+    margin-bottom: 48px;
 }
 
 .about-me__text:last-child {
-    
-    
-}
-
-.header__menu-link:first-child:hover {
-    color: #FF4500;
-}
-
-.header__menu-link:nth-child(2):hover {
-    color: aquamarine;
-    transform: scale(-0.5s);
-}
-
-.header__menu-link:nth-child(3):hover {
-    color: #FF4500;
-    transform: 
-}
-
-.about-me__text:first-child:hover {
-    color: #FF4500;
+    margin-bottom: 0;
 }

@@ -64,8 +64,8 @@ body {
     line-height: 39px;
     color: white;
     background: #88839E;
-    border-top: 3px solid #88839E;
-    border-bottom: 3px solid #88839E;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
 .list__item:only-child {
@@ -74,8 +74,8 @@ body {
 
 .list__item:nth-child(2n) {
     background: #7A7593;
-    border-top: 3px solid #7A7593;
-    border-bottom: 3px solid #7A7593;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
 .label {
