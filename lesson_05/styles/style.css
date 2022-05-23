@@ -146,8 +146,19 @@ section:nth-child(2n) {
     text-align: center;
 }
 
+.skills__content {
+    width: max-content;
+    margin-bottom: 84px;
+}
+
 .skills__item {
     width: 166px;
+    display: inline-block;
+    margin-right: 90px;
+}
+
+.skills__item:last-child {
+    margin-right: 0;
 }
 
 .skills__icon {
