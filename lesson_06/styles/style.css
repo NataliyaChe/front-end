@@ -17,59 +17,40 @@ body {
 .page--wrapper {
     width: 100%;
     max-width: 793px;
-    height: 507px;
     margin: 0 auto;
     background: #3B3F45;
+    padding-bottom: 45px;
 }
 
 .header {
-    width: 100%;
-    max-width: 793px;
-    height: 82px;
     text-align: center;
     background: #4A4F56;
+    padding: 19px 0 30px;
+    margin-bottom: 20px;
 }
 
 .header__title {
-    font-weight: 700;
     font-size: 24px;
-    line-height: 28px;
-    padding-top: 19px;
-}
-
-.header__text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    padding-top: 4px;
+    margin-bottom: 5px;
 }
 
 .list {
-    display: block;
-    width: 100%;
-    max-width: 534px;
-    height: 270px;
-    margin: 20px auto 0;
-    list-style-type: none; 
+    margin: 0 auto;
+    list-style-type: none;
+    margin-bottom: 45px;
+    color: white;
 }
 
-.list > .list__item, .footer {
-    display: block;
+.list, .footer {
     width: 534px;
-    font-weight: 400;
     font-size: 18px;
 }
 
 .list__item {
-    line-height: 39px;
-    color: white;
     background: #88839E;
     border-top: 3px solid transparent;
     border-bottom: 3px solid transparent;
-}
-
-.list__item:only-child {
-    width: 100%;
+    padding: 10px 12px;
 }
 
 .list__item:nth-child(2n) {
@@ -79,15 +60,12 @@ body {
 }
 
 .label {
+    width: 100%;
     display: block;
-    height: 39px;
-    padding-left: 12px; 
-    margin: auto;
 }
 
 .check {
     position: absolute;
-    z-index: -1;
     opacity: 0;
 }
 
@@ -98,7 +76,6 @@ body {
     height: 19px;
     background-color: #ffffff;
     margin-right: 16px;
-    margin-top: 9px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50% 50%;
@@ -125,11 +102,8 @@ body {
 }
 
 :after {
-    font-weight: 400;
     font-size: 11px;
-    line-height: 45px;
-    padding-left: 6px;
-    vertical-align: top;
+    margin-left: 10px;
 }
 
 .list__item:hover {
@@ -151,11 +125,9 @@ body {
 }
 
 .footer {
-    line-height: 45px;
-    color: var(--main-font-color);
-    background: #4A4F56;
-    text-align: center;
-    margin: auto;
-    margin-top: 45px;
+        color: var(--main-font-color);
+        background: #4A4F56;
+        text-align: center;
+        margin: auto;
+        padding: 15px 0;
 }
-
