@@ -27,20 +27,21 @@ body {
 }
 
 .header {
-    margin: 20px auto 30px;
+    padding: 35px auto 30px;
 }
 
 .logo {
     margin-bottom: 30px;
 }
+
 .header__menu-container {
     justify-content: flex-end;
+    align-items: center;
 }
 
 .header__menu-list {
     font-weight: 400;
     font-size: 14px;
-    align-items: center;
 }
 
 .header__menu-item, .footer__menu-item {
@@ -61,6 +62,7 @@ body {
     font-weight: 600;
     font-size: 16px;
     padding: 11px 23px;
+    max-height: 46px;
 }
 
 .button-white {
