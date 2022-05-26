@@ -16,18 +16,19 @@ body {
 
 .page--wrap {
     width: 100%;
-    max-width: 943px;
+    max-width: 1125px;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    gap: 29px;
 }
 
 .header {
-    padding: 35px auto 30px;
+    padding: 24px auto 26px;
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -37,6 +38,7 @@ body {
 .header__menu-container {
     justify-content: flex-end;
     align-items: center;
+    gap: 29px;
 }
 
 .header__menu-list {
@@ -46,6 +48,7 @@ body {
 
 .header__menu-item, .footer__menu-item {
     list-style: none;
+    margin-right: 29px;
 }
 
 .header__menu-link, .footer__menu-link  {
@@ -84,6 +87,7 @@ body {
 .hero__title {
     font-weight: 700;
     font-size: 44px;
+    line-height: 54px;
     color: var(--title-font-color);
     margin: 80px auto 30px;
 }
@@ -98,6 +102,7 @@ body {
 .hero__button-container {
     justify-content: flex-start;
     align-items: center;
+    gap: 30px;
 }
 
 .hero__image {
@@ -137,6 +142,7 @@ body {
 .tools__title {
     font-weight: 600;
     font-size: 22px;
+    line-height: 33px;
     color: var(--title-font-color);
     margin-bottom: 13px;
 }
@@ -157,9 +163,12 @@ body {
     gap: 81px;
 }
 
+.footer__menu {
+    gap: 175px;
+}
+
 .footer__menu-list {
     flex-direction: column;
-    min-width: 118px;
     gap: 12px;
 }
 
