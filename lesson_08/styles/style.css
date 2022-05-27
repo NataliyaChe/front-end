@@ -32,7 +32,7 @@ body {
 }
 
 .logo {
-    margin-bottom: 30px;
+    
 }
 
 .header__menu-container {
@@ -156,6 +156,7 @@ body {
 .footer {
     padding-bottom: 83px;
 }
+
 
 .footer__container {
     justify-content: flex-end;
