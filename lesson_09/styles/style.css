@@ -34,25 +34,14 @@ body {
     justify-content: space-between;
     align-self: center;
     gap: 42px;
+    font-family: var(--title-font);
+    font-size: 20px;
+    line-height: 23px;
 }
 
 .header__lang {
-    font-family: var(--title-font);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.04em;
     color: #FFFFFF;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, 
-    black -1px 1px 0, black 1px -1px 0;
-    
-}
-
-.header__path {
-    font-family: var(--title-font);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0, black 1px -1px 0;   
 }
 
 .doc__number {
@@ -62,14 +51,12 @@ body {
 .doc__title {
     font-family: var(--title-font);
     font-weight: 900;
-    letter-spacing: 4%;
     text-transform: uppercase;
     margin-bottom: 75px;
 }
 
 .doc__text {
     font-family: var(--text-font);
-    font-weight: 400;
     margin-bottom: 100px;
 }
 
