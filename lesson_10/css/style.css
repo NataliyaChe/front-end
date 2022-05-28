@@ -45,7 +45,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
 }
 
 .header__title {
@@ -77,26 +76,28 @@ img {
 .header__img-arrow {
     width: 20%;
     z-index: 10;
-    position: fixed;
+    position: absolute;
     bottom: 20px;
     right: 250px;
 }
 
 .header__img-planet {
     width: 50%;
-    position: fixed;
+    position: absolute;
     right: 100px;
     bottom: 0px;
 }
 
 .img {
     width: 10%;
-    position: fixed;
+    position: absolute;
 }
 
 #img-1 {
-    left: 20px;
-    top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #img-2 {
