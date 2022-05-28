@@ -7,7 +7,7 @@
 :root {
     --title-font: 'Francois One', sans-serif;
     --text-font: 'PT Sans', sans-serif;
-    --sup-font: 'Farro', sans-serif;
+    --super-font: 'Farro', sans-serif;
     --text-font-color: #000000;
 }
 
@@ -64,7 +64,7 @@
 
 
 .chapter {
-    font-family: var(--sup-font);
+    font-family: var(--super-font);
     font-weight: 300;
     font-size: 20px;
     vertical-align: 22px;
