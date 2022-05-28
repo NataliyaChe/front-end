@@ -33,7 +33,6 @@ img {
     display: flex;
     justify-content: space-between;
     padding: 200px 0 320px;
-
 }
 
 .header__img-container {
@@ -76,17 +75,36 @@ img {
 }
 
 .header__img-arrow {
-    width: 286px;
+    width: 20%;
     z-index: 10;
     position: fixed;
     bottom: 20px;
-    right: 200px;
+    right: 250px;
 }
 
 .header__img-planet {
-    width: 1024px;
+    width: 50%;
     position: fixed;
-    right: -100px;
-    bottom: -200px;
+    right: 100px;
+    bottom: 0px;
+}
 
+.img {
+    width: 10%;
+    position: fixed;
+}
+
+#img-1 {
+    left: 20px;
+    top: 0;
+}
+
+#img-2 {
+    right: 40px;
+    top: 10px;
+}
+
+#img-3 {
+    left: 120px;
+    bottom: 40px;
 }
