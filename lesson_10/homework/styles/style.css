@@ -11,10 +11,8 @@
     --text-font-color: #000000;
 }
 
-.page--wrap {
-    position: relative;
-}
-
+body {
+  
 .container {
     margin: 0 auto 70px;    
 }
@@ -24,7 +22,7 @@
 }
 */
 .header {
-    height: 80px;
+    position: fixed;
     margin-bottom: 70px;
 }
 
