@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --title-font: 'Francois One', sans-serif;
+    --text-font: 'PT Sans', sans-serif;
+    --super-font: 'Farro', sans-serif;
+    --text-font-color: #000000;
+}
+
+.page--wrap {
+    
+}
+
+.container {
+    margin: 0 auto 70px;    
+}
+/*
+.header {
+    padding: 13px 0;
+}
+*/
+.header {
+    height: 80px;
+    margin-bottom: 70px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    position: fixed;
+    left: 120px;
+    right: 120px;
+    z-index: 1;
+    padding: 29px 0;
+    background: #FFFFFF;
+}
+
+.header__lang {
+    font-family: 'Tourney', cursive;
+    font-weight: 600;
+    font-size: 22px; 
+}
+
+.header__content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Staatliches', cursive;
+    font-size: 22px;
+}
+
+.header__logo {
+    position: absolute;
+    top: 13px;
+    right: 0;
+
+}
+
+.logo-img {
+    position: sticky;
+    top: 150px;
+    float: right;
+    z-index: -10;  
+}
+
+.main {
+    
+    padding: 70px 120px 0 120px;
+}
+
+.main__content {
+    width: 100%;
+    max-width: 785px;
+}
+
+.aside__container {
+    position: sticky;
+    top: 80px;
+    float: left;
+    width: 385px;
+    height: 462px;
+    border: 2px solid #000000;
+}
+
+.title, .aside__title {
+    font-family: var(--title-font);
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.title::before {
+    content: '';
+    display: block;
+    height: 8px;
+    background: var(--text-font-color);
+    width: 100px; 
+    margin: 0 0 20px;
+}
+
+.sup-text {
+    font-family: var(--super-font);
+    font-weight: 300;
+    font-size: 20px;
+    vertical-align: 22px;
+    text-transform: none;
+}
+
+.text {
+    font-family: var(--text-font);
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-background {
+    background-color: #C9C9C9;
+}
+
+.react-fundamentals__container > .text {
+    margin-bottom: 40px;
+}
+
+.text-input__container {
+    padding-bottom: 90px;
+}
+
+background: #C9C9C9;
