@@ -11,15 +11,14 @@
     --text-font-color: #000000;
 }
 
-.container {
+.container, .header {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;    
+    margin: 0 auto 70px;    
 }
 
 .header {
     padding: 13px 0;
-    margin-bottom: 70px;
 }
 
 .header__container {
@@ -51,11 +50,7 @@
     right: 0;
 }
 
-.main__container {
-    padding-bottom: 90px;
-}
-
-.doc__title {
+.title {
     font-family: var(--title-font);
     font-size: 36px;
     text-transform: uppercase;
@@ -71,25 +66,32 @@
     text-transform: none;
 }
 
-.doc__text {
+.text {
     font-family: var(--text-font);
     font-size: 28px;
     line-height: 48px;
-    margin-bottom: 70px;
 }
 
-.text__underline {
+.text-underline {
     text-decoration: underline;
 }
 
-.text__italic {
+.text-italic {
     font-style: italic;
 }
 
-.text__bold {
+.text-bold {
     font-weight: 700;
 }
 
-.text__background {
+.text-background {
     background-color: #C9C9C9;
+}
+
+.react-fundamentals__container > .text {
+    margin-bottom: 40px;
+}
+
+.text-input__container {
+    padding-bottom: 90px;
 }
