@@ -12,7 +12,7 @@
 }
 
 .page--wrap {
-    
+    position: relative;
 }
 
 .container {
@@ -68,11 +68,11 @@
     float: right;
     z-index: -10;  
 }
-
+/*
 .main {
-    
-    padding: 70px 120px 0 120px;
+    padding: 0 120px 0 120px;
 }
+*/
 
 .main__content {
     width: 100%;
@@ -82,7 +82,7 @@
 .aside__container {
     position: sticky;
     top: 80px;
-    float: left;
+    left: 120px;
     width: 385px;
     height: 462px;
     border: 2px solid #000000;
